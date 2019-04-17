@@ -1,0 +1,46 @@
+.pretop{
+	background-color: black;
+	padding: 1vw;
+
+}
+
+.navbar{
+	background-image: url("../images/bananatop.png");
+	
+}
+
+
+
+.nav-link {
+	background-color: black !important;
+	color: white !important;
+	padding: auto;
+	border-radius: 1vw;
+
+}
+
+.barrameio {
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+.horizontal{
+   display: inline;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 50px;
+  font-family: impact;
+
+}
+
+@media only screen and (max-width: 880px){
+
+    .horizontal{
+	font-size: 2px;
+	color: red;
+
+	}
+
+
+}
