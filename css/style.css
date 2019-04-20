@@ -1,69 +1,65 @@
-body{
+body {
 	background-image: url("../images/fundo.png");
-
-
 }
-.pretop{
+
+.pretop {
 	background-color: black;
-	padding: 1vw;
-
+	padding: 8px;
 }
 
-.navbar{
+.bananatop {
 	background-image: url("../images/bananatop.png");
-	
+	z-index: -1;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 80px;
 }
 
-.nav{
+.navbar {
 	margin: auto;
-
+	display: table !important;
+	margin-top: 5px;
 }
 
-.nav-item{
+.navelink {
 	background-color: black;
 	margin-left: 50px;
 	font-family: sans-serif;
-}
-
-.nav-link{
+	padding: 5px;
 	color: gold;
-
-
 }
-
 
 .barrameio {
-  text-align: center;
-  margin-top: 1vw;
-
+	text-align: center;
+	margin-top: 20px;
 }
 
-.horizontal{
-   display: inline;
-  font-weight: bold;
-  font-size: 30px;
-  padding: 50px;
-  font-family: impact;
-
+.horizontal {
+	display: inline;
+	font-weight: bold;
+	font-size: 30px;
+	padding: 50px;
+	font-family: impact;
 }
 
-@media only screen and (max-width: 880px){
+@media only screen and (max-width: 880px) {
+	.horizontal {
+		display: none;
+	}
+	.navbar {
+		display: grid !important;
+		margin-top: 56px;
+		background-color: black;
+		justify-content: center;
 
-    .horizontal{
-	display: none;
 
 	}
-
-	.nav{
-	display: list-item !important;
-
-	}
-
-	.pretop{
-		padding: 3vw;
+	.navelink{
 	
-
+	
 	}
 
-
-}
