@@ -1,5 +1,12 @@
-body {
+	body {
 	background-image: url("../images/fundo.png");
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+	text-decoration: none !important;
 }
 
 .pretop {
@@ -25,6 +32,15 @@ body {
 	margin-top: 5px;
 }
 
+.iconphone{
+	background-image: url("../images/bananatop.png");
+	height: 20px;
+    width: 20px;
+    display: block;
+    position: relative;
+    margin-right: 7px;
+}
+
 .navelink {
 	background-color: black;
 	margin-left: 50px;
@@ -46,19 +62,59 @@ body {
 	font-family: impact;
 }
 
+.linksmeio {
+	color: black;
+}
+
+.carousel-indicators li {
+	width: 10px !important;
+	height: 10px !important;
+	border-radius: 100%;
+	background-color: gold !important;
+}
+
+.carousel-indicators {
+	margin-bottom: -30px;
+}
+
+.carousel-inner {
+	margin-bottom: 15px;
+}
+
+.container{
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+.roupas img {
+	width: 100%;
+	height: auto;
+	padding: 5px;
+
+}
+
+.row {
+	
+}
+
 @media only screen and (max-width: 880px) {
-	.horizontal {
-		display: none;
+	.barrameio {
+		display: none; /* aplicar hidden pra do meio e pra da lateral pra quando a tela ficar mobile*/
 	}
 	.navbar {
 		display: grid !important;
 		margin-top: 56px;
 		background-color: black;
-		justify-content: center;
-
-
+		justify-content: center !important;
 	}
-	.navelink{
+	.carroselmobile {
+		background-color: black;
+		padding: 20px;
+	}
 	
 	
-	}
+
+
