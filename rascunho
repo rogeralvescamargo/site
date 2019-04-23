@@ -48,3 +48,16 @@
 	}
 
 }
+
+
+
+.stack{ -----------------------opção da parte de navegação para criar div flutuante
+	display: flex;
+	margin-top: 7px;
+	letter-spacing: .05em;
+	flex-direction: column;
+	float: right;
+
+
+}
+
