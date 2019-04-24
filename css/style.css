@@ -32,12 +32,13 @@ a:active {
 	margin-top: 5px;
 }
 
-<<<<<<< HEAD
 .stack {
 	display: flex;
 	margin-top: 7px;
 	letter-spacing: .05em;
 	flex-direction: column;
+	width: 12px;
+
 }
 
 .texto {
@@ -52,14 +53,9 @@ a:active {
 	margin-right: 7px;
 }
 
-.iconphone {
-=======
-.textonav{
-	
-}
 
 .iconphone{
->>>>>>> 0b824799e507ff6dfc637c7f4a1fd792a40d9945
+
 	background-image: url("../images/bananatop.png");
 	height: 20px;
 	width: 20px;
@@ -126,10 +122,10 @@ a:active {
 		/* aplicar hidden pra do meio e pra da lateral pra quando a tela ficar mobile*/
 	}
 	.navbar {
-		
-		margin-top: 56px;
+		width: 100%;
+		margin-top: 70px;
 		background-color: black;
-		justify-content: center !important;
+		
 	}
 	.carroselmobile {
 		background-color: black;
@@ -139,4 +135,6 @@ a:active {
 	.navegadiv{
 		width: 100%;
 		background-color: black;
+		
+
 	}
