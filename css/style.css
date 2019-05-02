@@ -26,36 +26,43 @@ a:active {
 	height: 80px;
 }
 
-.navbar {
-	margin: auto;
-	display: table !important;
-	margin-top: 5px;
+#navebarcima.navbar {
+	margin-top: 1px;
+	justify-content: center !important;
+}
+
+.navegadiv {
+	background-color: black;
+	margin-right: 20px;
+	height: 10px;
 }
 
 .stack {
-	display: flex;
-	margin-top: 7px;
+	display: inline-flex;
 	letter-spacing: .05em;
 	flex-direction: column;
-	width: 12px;
+	position: relative;
+	bottom: 15px;
+	background-color: black;
+}
 
+.fas {
+	font-size: 23px;
 }
 
 .texto {
-	font-size: 32px;
+	font-size: 27px;
 }
 
 .textodiv {
 	font-size: 10px;
 }
 
-.free {
+.esp {
 	margin-right: 7px;
 }
 
-
-.iconphone{
-
+.iconphone {
 	background-image: url("../images/bananatop.png");
 	height: 20px;
 	width: 20px;
@@ -84,8 +91,25 @@ a:active {
 	font-family: impact;
 }
 
-.linksmeio {
+.links {
 	color: black;
+}
+
+#lateralmobile {
+	display: none;
+}
+
+#metadesite.container {
+	width: 100%;
+	box-sizing: border-box;
+	display: inline-flex;
+	flex-wrap: wrap;
+	margin-bottom: 30px;
+}
+
+.asidemenu {
+	width: 30%;
+	float: left;
 }
 
 .carousel-indicators li {
@@ -103,7 +127,12 @@ a:active {
 	margin-bottom: 15px;
 }
 
-.container {
+.carroselmobile {
+	width: 70%;
+	float: right;
+}
+
+#listaroupas.container {
 	box-sizing: border-box;
 	display: flex;
 	flex-wrap: wrap;
@@ -121,20 +150,78 @@ a:active {
 		display: none;
 		/* aplicar hidden pra do meio e pra da lateral pra quando a tela ficar mobile*/
 	}
-	.navbar {
+	#navebarcima.navbar {
 		width: 100%;
+		display: table !important;
 		margin-top: 70px;
 		background-color: black;
-		
+		text-align: center;
 	}
 	.carroselmobile {
 		background-color: black;
 		padding: 20px;
 	}
-
-	.navegadiv{
+	.navegadiv {
 		width: 100%;
 		background-color: black;
-		
+		display: inline-block;
+		height: auto;
+	}
+
+	.linkslaterais{
+		color: yellow;
 
 	}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+}

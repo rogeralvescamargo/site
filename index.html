@@ -8,74 +8,113 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="fontawesome-free-5.8.1-web/css/all.css">
 
-
     <title>Site</title>
+
 </head>
 
 <body>
-    <header>
-        <div class="pretop"></div>
-        <div class="bananatop"></div>
-        <section class="secaonav">
-            <nav class="navbar">
+  
+        <div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <li><a href="#" class="linkslaterais active">HOME</a></li>
+                <li><a href="#" class="linkslaterais">SHOP</a></li>
+                <li><a href="#" class="linkslaterais">HOT</a></li>
+                <li><a href="#" class="linkslaterais">DUMP</a></li>
+                <li><a href="#" class="linkslaterais">ABOUT</a></li>
+                <li><a href="#" class="linkslaterais">FAQ</a></li>
+                <br>
+                <li><a href="#" class="linkslaterais">SHOP</a></li>
+                <li><a href="#" class="linkslaterais">SALE</a></li>
+                <li><a href="#" class="linkslaterais">TSHIRTS</a></li>
+                <li><a href="#" class="linkslaterais">JACKETS</a></li>
+                <li><a href="#" class="linkslaterais">ACESSORIES</a></li>
+                <li><a href="#" class="linkslaterais">CAPS</a></li>
+            </ul>
+        </div>
 
+        <div id="main">
+  <button class="openbtn" onclick="openNav()">☰ Toggle Sidebar</button>  
+		</div>
 
-               <div class="navegadiv"><a href="#" class="navelink"><i class="fas fa-phone"></i> <span>0915.195.0209</span></a></div>
-               <div class="navegadiv"> <a href="#" class="navelink"><i class="fas fa-globe-europe"></i> <span class="texto free">FREE</span><div class="stack"><span class="textodiv">SHIPPING</span><span class="textodiv">NATIONWIDE</span></div></a></div>
-                <div class="navegadiv"><a href="#" class="navelink"><i class="fas fa-shopping-cart"></i><div class="stack"><span class="textodiv">x items</span><span class="textodiv">in your</span></div> <span class="textocart">CART</span></a></div>
+        <header>
+            <div class="pretop"></div>
+            <div class="bananatop"></div>
+            <section class="secaonav">
+                <nav id="navebarcima" class="navbar">
 
-              
-            </nav>
+                    <div class="navegadiv"><a href="#" class="navelink"><i class="fas fa-phone"></i> <span class="texto">0915.195.0209</span></a></div>
+                    <div class="navegadiv"> <a href="#" class="navelink"><i class="fas fa-globe-europe"></i> <span class="texto esp">FREE</span><div class="stack"><span class="textodiv">SHIPPING</span><span class="textodiv">NATIONWIDE</span></div></a></div>
+                    <div class="navegadiv"><a href="#" class="navelink"><i class="fas fa-shopping-cart esp"></i><div class="stack"><span class="textodiv">x items</span><span class="textodiv">in your</span></div> <span class="texto">CART</span></a></div>
 
-            <nav class="barrameio">
+                </nav>
+
+                <nav class="barrameio">
+                    <ul>
+                        <li class="horizontal"><a href="#" class="links">SHOP</a></li>
+                        <li class="horizontal"><a href="#" class="links">HOT</a></li>
+                        <li class="horizontal"><a href="#" class="links">DUMP</a></li>
+                        <li class="horizontal"><a href="#" class="links">ABOUT</a></li>
+                        <li class="horizontal"><a href="#" class="links">FAQ</a></li>
+                    </ul>
+                </nav>
+        </header>
+        </section>
+
+        <div id="metadesite" class="container">
+            <div class="asidemenu">
                 <ul>
-                    <li class="horizontal"><a href="#" class="linksmeio">SHOP</a></li>
-                    <li class="horizontal"><a href="#" class="linksmeio">HOT</a></li>
-                    <li class="horizontal"><a href="#" class="linksmeio">DUMP</a></li>
-                    <li class="horizontal"><a href="#" class="linksmeio">ABOUT</a></li>
-                    <li class="horizontal"><a href="#" class="linksmeio">FAQ</a></li>
+                    <li class="horizontal"><a href="#" class="links">SHOP</a></li>
+                    <li class="horizontal"><a href="#" class="links">SALE</a></li>
+                    <li class="horizontal"><a href="#" class="links">TSHIRTS</a></li>
+                    <li class="horizontal"><a href="#" class="links">JACKETS</a></li>
+                    <li class="horizontal"><a href="#" class="links">ACESSORIES</a></li>
+                    <li class="horizontal"><a href="#" class="links">CAPS</a></li>
                 </ul>
-            </nav>
+            </div>
+            <div class="carroselmobile">
+                <div id="carrosel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carrosel" data-slide-to="0" class="active"></li>
+                        <li data-target="#carrosel" data-slide-to="1"></li>
+                        <li data-target="#carrosel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="./images/ny.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./images/la.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./images/chicago.jpg" alt="Third slide">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    </header>
-    </section>
-    <section class="carroselmobile">
-        <div id="carrosel" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carrosel" data-slide-to="0" class="active"></li>
-                <li data-target="#carrosel" data-slide-to="1"></li>
-                <li data-target="#carrosel" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="./images/ny.jpg" alt="First slide">
+        <section>
+            <div id="listaroupas" class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-xs-12 roupas"><img src="./images/roupa1.jpg"></div>
+                    <div class="col-lg-4 col-md-6 col-xs-12 roupas"><img src="./images/roupa2.jpg"></div>
+                    <div class="col-lg-4 col-md-6 col-xs-12	roupas"><img src="./images/roupa3.jpg"></div>
                 </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="./images/la.jpg" alt="Second slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="./images/chicago.jpg" alt="Third slide">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-xs-12 roupas"><img src="./images/roupa4.jpg"></div>
+                    <div class="col-lg-4 col-md-6 col-xs-12 roupas"><img src="./images/roupa4.jpg"></div>
+                    <div class="col-lg-4 col-md-6 col-xs-12 roupas"><img src="./images/roupa4.jpg"></div>
                 </div>
             </div>
-        </div>
-    </section>
-    <br>
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-xs-12 roupas"><img src="./images/roupa1.jpg"></div>
-                <div class="col-lg-4 col-md-6 col-xs-12 roupas"><img src="./images/roupa2.jpg"></div>
-                <div class="col-lg-4 col-md-6 col-xs-12	roupas"><img src="./images/roupa3.jpg"></div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-xs-12 roupas"><img src="./images/roupa4.jpg"></div>
-                <div class="col-lg-4 col-md-6 col-xs-12 roupas"><img src="./images/roupa4.jpg"></div>
-                <div class="col-lg-4 col-md-6 col-xs-12 roupas"><img src="./images/roupa4.jpg"></div>
-            </div>
-        </div>
-    </section>
-    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+        </section>
+   
 </body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/javascript.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
 </html>
